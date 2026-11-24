@@ -1,0 +1,10 @@
+[project]
+name = "sec-dlp-fingerprint"
+version = "0.1.0"
+description = "GSB DLP document fingerprint false-negative exercise"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
